@@ -15,8 +15,8 @@ x=0; y=0
 
 num = int(input())
 for i in range(num): 
-	if x==y:
-		x=1
+	if x<y:
+		x=0
 		y+=1
 	else:
 		x+=1
